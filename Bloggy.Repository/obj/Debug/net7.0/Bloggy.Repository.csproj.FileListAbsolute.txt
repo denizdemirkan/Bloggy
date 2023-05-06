@@ -1,0 +1,17 @@
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\bin\Debug\net7.0\Bloggy.Repository.deps.json
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\bin\Debug\net7.0\Bloggy.Repository.runtimeconfig.json
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\bin\Debug\net7.0\Bloggy.Repository.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\bin\Debug\net7.0\Bloggy.Repository.pdb
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\bin\Debug\net7.0\Bloggy.Core.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\bin\Debug\net7.0\Bloggy.Core.pdb
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\Bloggy.Repository.csproj.AssemblyReference.cache
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\Bloggy.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\Bloggy.Repository.AssemblyInfoInputs.cache
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\Bloggy.Repository.AssemblyInfo.cs
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\Bloggy.Repository.csproj.CoreCompileInputs.cache
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\Bloggy.Repository.csproj.CopyComplete
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\Bloggy.Repository.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\refint\Bloggy.Repository.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\Bloggy.Repository.pdb
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\Bloggy.Repository.genruntimeconfig.cache
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\ref\Bloggy.Repository.dll
