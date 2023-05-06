@@ -15,6 +15,14 @@ namespace Bloggy.Repository.DbContexts
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Category> Categories { get; set; }
 
+        public MsSqlDbContext(DbContextOptions<MsSqlDbContext> options) : base(options)
+        {
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = Bloggy; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = True; ApplicationIntent = ReadWrite; MultiSubnetFailover = False");
+        }
 
         // db reference is in the api section (runtime layer)
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -1,0 +1,17 @@
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\bin\Debug\net7.0\Bloggy.Service.deps.json
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\bin\Debug\net7.0\Bloggy.Service.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\bin\Debug\net7.0\Bloggy.Service.pdb
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\bin\Debug\net7.0\Bloggy.Core.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\bin\Debug\net7.0\Bloggy.Repository.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\bin\Debug\net7.0\Bloggy.Repository.pdb
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\bin\Debug\net7.0\Bloggy.Core.pdb
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\Bloggy.Service.csproj.AssemblyReference.cache
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\Bloggy.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\Bloggy.Service.AssemblyInfoInputs.cache
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\Bloggy.Service.AssemblyInfo.cs
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\Bloggy.Service.csproj.CoreCompileInputs.cache
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\Bloggy.Service.csproj.CopyComplete
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\Bloggy.Service.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\refint\Bloggy.Service.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\Bloggy.Service.pdb
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\ref\Bloggy.Service.dll
