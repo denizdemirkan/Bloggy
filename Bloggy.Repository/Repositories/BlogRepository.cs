@@ -1,5 +1,6 @@
 ﻿using Bloggy.Core.Entities;
 using Bloggy.Core.Repositories;
+using Bloggy.Core.Services;
 using Bloggy.Repository.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -35,18 +36,39 @@ namespace Bloggy.Repository.Repositories
         public IQueryable<Blog> GetAll()
         {
             var blogs = _dbContext.Blogs.Include(b => b.Author).Include(b => b.Category).AsQueryable();
+           // var blogs = _dbContext.Blogs.AsQueryable();
             return blogs;
         }
 
         public async Task<Blog> GetByIdAsync(int id)
         {
-            var blog = await _dbSet.FindAsync(id);
+            var blog = await _dbSet.Include(b => b.Author).Include(b => b.Category).FirstOrDefaultAsync(b => b.Id == id);
+            //var blog = await _dbSet.FirstOrDefaultAsync(b => b.Id == id);
             return blog;
         }
 
         public Task<Blog> GetByNameAsync(string name)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task<Blog> GetLastPostAsync()
+        {
+            var blog = await _dbContext.Blogs.OrderByDescending(b => b.Created).FirstAsync();
+            return blog;
+        }
+
+        public async Task<Blog> GetMostLikedAsync()
+        {
+            var blog = await _dbContext.Blogs.OrderByDescending(b => b.LikeCount).FirstAsync();
+            return blog;
+        }
+
+        public async Task<Blog> GetMostReadAsync()
+        {
+            var blog = await _dbContext.Blogs.OrderByDescending(b => b.ReadCount).FirstAsync();
+
+            return blog;
         }
 
         public void Remove(Blog blog)
@@ -58,5 +80,6 @@ namespace Bloggy.Repository.Repositories
         {
             _dbSet.Update(blog);
         }
+
     }
 }

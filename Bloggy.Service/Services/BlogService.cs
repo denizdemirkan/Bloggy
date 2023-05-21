@@ -50,6 +50,26 @@ namespace Bloggy.Service.Services
             return blogDto;
         }
 
+        public async Task<BlogDto> GetMostLikedAsync()
+        {
+            var blogDto = ObjectMapper.Mapper.Map<BlogDto>(await _blogRepository.GetMostLikedAsync());
+
+            return blogDto;
+        }
+
+        public async Task<BlogDto> GetMostReadAsync()
+        {
+            var blogDto = ObjectMapper.Mapper.Map<BlogDto>(await _blogRepository.GetMostReadAsync());
+
+            return blogDto;
+        }
+        public async Task<BlogDto> GetLastPostAsync()
+        {
+            var blogDto = ObjectMapper.Mapper.Map<BlogDto>(await _blogRepository.GetLastPostAsync());
+
+            return blogDto;
+        }
+
         public async Task RemoveById(int id)
         {
             var blog = await _blogRepository.GetByIdAsync(id);

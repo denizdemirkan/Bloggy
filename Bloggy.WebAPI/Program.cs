@@ -7,6 +7,7 @@ using Bloggy.Repository.UnitOfWorks;
 using Bloggy.Service.Mappings;
 using Bloggy.Service.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using System.Reflection;
 using System.Text.Json.Serialization;
 
@@ -45,6 +46,18 @@ builder.Services.AddDbContext<MsSqlDbContext>(x =>
     });
 });
 
+
+// CORS Policy
+builder.Services.AddCors(options =>
+    {
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -53,6 +66,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// CORS Policy
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 

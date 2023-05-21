@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bloggy.Core", "Bloggy.Core\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bloggy.Repository", "Bloggy.Repository\Bloggy.Repository.csproj", "{F3BE0137-E275-435F-A8AF-E25FBDEC14AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bloggy.Service", "Bloggy.Service\Bloggy.Service.csproj", "{9479EBFE-C903-4419-9842-F45570C05282}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bloggy.Service", "Bloggy.Service\Bloggy.Service.csproj", "{9479EBFE-C903-4419-9842-F45570C05282}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bloggy.WebAPI", "Bloggy.WebAPI\Bloggy.WebAPI.csproj", "{E52A8D29-CF43-4F9E-BC0E-0CBD8696E776}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bloggy.WebAPI", "Bloggy.WebAPI\Bloggy.WebAPI.csproj", "{E52A8D29-CF43-4F9E-BC0E-0CBD8696E776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bloggy.PresentationMVC", "Bloggy.PresentationMVC\Bloggy.PresentationMVC.csproj", "{2FBD110A-9C5B-4FA0-8710-A7026E6D9F82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E52A8D29-CF43-4F9E-BC0E-0CBD8696E776}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E52A8D29-CF43-4F9E-BC0E-0CBD8696E776}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E52A8D29-CF43-4F9E-BC0E-0CBD8696E776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FBD110A-9C5B-4FA0-8710-A7026E6D9F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBD110A-9C5B-4FA0-8710-A7026E6D9F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FBD110A-9C5B-4FA0-8710-A7026E6D9F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FBD110A-9C5B-4FA0-8710-A7026E6D9F82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

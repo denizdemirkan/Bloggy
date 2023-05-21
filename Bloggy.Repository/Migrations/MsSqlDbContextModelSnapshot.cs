@@ -64,6 +64,10 @@ namespace Bloggy.Repository.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
+                    b.Property<string>("CoverImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
@@ -72,6 +76,9 @@ namespace Bloggy.Repository.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("LikeCount")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ReadCount")
                         .HasColumnType("int");
 
                     b.Property<string>("Text")
