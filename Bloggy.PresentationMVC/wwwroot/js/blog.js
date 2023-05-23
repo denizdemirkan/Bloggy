@@ -10,9 +10,10 @@ buttonDark.addEventListener("click", changeThemeDark);
 buttonLight.addEventListener("click", changeThemeLight);
 
 window.onload = function () {
+    var blogId = window.location.href.substring(window.location.href.lastIndexOf("/") + 1);
 
     // Send Request
-    fetch('https://localhost:7252/api/Blog/Get/1007')
+    fetch("https://localhost:7252/api/Blog/Get/" + blogId)
         .then(response => response.json())
         .then(data => {
 
