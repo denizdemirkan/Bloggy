@@ -60,7 +60,6 @@ C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\obj\Debug\net
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\obj\Debug\net7.0\Bloggy.WebAPI.AssemblyInfoInputs.cache
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\obj\Debug\net7.0\Bloggy.WebAPI.AssemblyInfo.cs
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\obj\Debug\net7.0\Bloggy.WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\obj\Debug\net7.0\Bloggy.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\obj\Debug\net7.0\Bloggy.WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.Bloggy.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.Bloggy.WebAPI.props
@@ -82,3 +81,12 @@ C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Bloggy.SharedLibrary.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Bloggy.SharedLibrary.pdb

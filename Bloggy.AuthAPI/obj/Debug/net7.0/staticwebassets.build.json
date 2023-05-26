@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kYNV9RyAlISwstCLJweg8ccvzcypYuLTtmOmGAV6xJ0=",
+  "Source": "Bloggy.AuthAPI",
+  "BasePath": "_content/Bloggy.AuthAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

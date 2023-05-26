@@ -35,7 +35,7 @@ namespace Bloggy.Repository.Repositories
 
         public IQueryable<Blog> GetAll()
         {
-            var blogs = _dbContext.Blogs.Include(b => b.Author).Include(b => b.Category).AsQueryable();
+            var blogs = _dbContext.Blogs.Include(b => b.Category).AsQueryable();
            // var blogs = _dbContext.Blogs.AsQueryable();
             return blogs;
         }

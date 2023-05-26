@@ -1,0 +1,12 @@
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.SharedLibrary\bin\Debug\net7.0\Bloggy.SharedLibrary.deps.json
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.SharedLibrary\bin\Debug\net7.0\Bloggy.SharedLibrary.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.SharedLibrary\bin\Debug\net7.0\Bloggy.SharedLibrary.pdb
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.SharedLibrary\obj\Debug\net7.0\Bloggy.SharedLibrary.csproj.AssemblyReference.cache
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.SharedLibrary\obj\Debug\net7.0\Bloggy.SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.SharedLibrary\obj\Debug\net7.0\Bloggy.SharedLibrary.AssemblyInfoInputs.cache
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.SharedLibrary\obj\Debug\net7.0\Bloggy.SharedLibrary.AssemblyInfo.cs
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.SharedLibrary\obj\Debug\net7.0\Bloggy.SharedLibrary.csproj.CoreCompileInputs.cache
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.SharedLibrary\obj\Debug\net7.0\Bloggy.SharedLibrary.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.SharedLibrary\obj\Debug\net7.0\refint\Bloggy.SharedLibrary.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.SharedLibrary\obj\Debug\net7.0\Bloggy.SharedLibrary.pdb
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.SharedLibrary\obj\Debug\net7.0\ref\Bloggy.SharedLibrary.dll
