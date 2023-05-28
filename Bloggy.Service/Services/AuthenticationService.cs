@@ -64,6 +64,8 @@ namespace Bloggy.Service.Services
             {
                 userRefreshToken.Token = token.RefreshToken;
                 userRefreshToken.Expiration = token.RefreshTokenExpiration;
+
+                _userRefreshTokenRepository.Update(userRefreshToken);
             }
 
             await _unitOfWork.CommitAsync();

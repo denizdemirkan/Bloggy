@@ -1,13 +1,7 @@
 ﻿using Bloggy.SharedLibrary.Services;
 using Bloggy.SharedLibrary.Token;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bloggy.SharedLibrary.Extensions
 {
@@ -15,9 +9,6 @@ namespace Bloggy.SharedLibrary.Extensions
     {
         public static void AddCustomTokenAuth(this IServiceCollection services, CustomTokenOption tokenOptions)
         {
-
-
-
             services.AddAuthentication(options => {
 
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -31,7 +22,6 @@ namespace Bloggy.SharedLibrary.Extensions
                     ValidIssuer = tokenOptions.Issuer,
                     ValidAudience = tokenOptions.Audience[0],
                     IssuerSigningKey = SignService.GetSymmetricSecurityKey(tokenOptions.SecurityKey),
-
 
                     ValidateIssuerSigningKey = true,
                     ValidateAudience = true,

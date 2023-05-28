@@ -90,3 +90,4 @@ C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Bloggy.SharedLibrary.dll
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\bin\Debug\net7.0\Bloggy.SharedLibrary.pdb
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.WebAPI\obj\Debug\net7.0\Bloggy.WebAPI.MvcApplicationPartsAssemblyInfo.cs

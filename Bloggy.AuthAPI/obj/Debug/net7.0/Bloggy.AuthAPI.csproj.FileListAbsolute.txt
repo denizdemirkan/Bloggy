@@ -89,3 +89,4 @@ C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.AuthAPI\bin\Debug\ne
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.AuthAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.AuthAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.AuthAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.AuthAPI\obj\Debug\net7.0\Bloggy.AuthAPI.MvcApplicationPartsAssemblyInfo.cs

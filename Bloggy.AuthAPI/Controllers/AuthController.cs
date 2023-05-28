@@ -16,6 +16,7 @@ namespace Bloggy.AuthAPI.Controllers
         }
 
         [HttpPost]
+        // Working
         public async Task<IActionResult> CreateTokenAsync(LoginDto loginDto)
         {
             var results = await _authenticationService.CreateTokenAsync(loginDto);
@@ -23,6 +24,7 @@ namespace Bloggy.AuthAPI.Controllers
         }
 
         [HttpPost]
+        // IDK
         public IActionResult CreateTokenByNonUser(NonUserLoginDto nonUserLoginDto)
         {
             var results = _authenticationService.CreateTokenByNonUser(nonUserLoginDto);
@@ -31,6 +33,7 @@ namespace Bloggy.AuthAPI.Controllers
 
 
         [HttpPost]
+        // Not Working
         public async Task<IActionResult> CreateTokenByRefreshTokenAsync(RefreshTokenDto refreshToken)
         {
             var results = await _authenticationService.CreateTokenByRefreshTokenAsync(refreshToken.Token);

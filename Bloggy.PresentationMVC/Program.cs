@@ -1,7 +1,16 @@
+using Bloggy.SharedLibrary.Extensions;
+using Bloggy.SharedLibrary.Token;
+
 var builder = WebApplication.CreateBuilder(args);
+ConfigurationManager configuration = builder.Configuration;
+IWebHostEnvironment environment = builder.Environment;
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var tokenOptions = configuration.GetSection("TokenOption").Get<CustomTokenOption>();
+// AddAuthentication() == 
+builder.Services.AddCustomTokenAuth(tokenOptions);
 
 var app = builder.Build();
 
@@ -18,6 +27,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

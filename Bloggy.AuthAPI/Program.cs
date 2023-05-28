@@ -7,6 +7,7 @@ using Bloggy.Repository.DbContexts;
 using Bloggy.Repository.Repositories;
 using Bloggy.Repository.UnitOfWorks;
 using Bloggy.Service.Services;
+using Bloggy.SharedLibrary.Extensions;
 using Bloggy.SharedLibrary.Token;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -51,29 +52,9 @@ builder.Services.AddIdentity<User, IdentityRole>(Opt =>
 builder.Services.Configure<CustomTokenOption>(configuration.GetSection("TokenOption"));
 builder.Services.Configure<List<Client>>(configuration.GetSection("Clients"));
 
-builder.Services.AddAuthentication(options => {
-
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-
-}).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, opt => {
-
-    var tokenOptions = configuration.GetSection("TokenOption").Get<CustomTokenOption>();
-
-    opt.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
-    {
-        ValidIssuer = tokenOptions.Issuer,
-        ValidAudience = tokenOptions.Audience[0],
-        IssuerSigningKey = SignService.GetSymmetricSecurityKey(tokenOptions.SecurityKey),
-
-
-        ValidateIssuerSigningKey = true,
-        ValidateAudience = true,
-        ValidateIssuer = true,
-        ValidateLifetime = true,
-        ClockSkew = TimeSpan.Zero
-    };
-});
+var tokenOptions = configuration.GetSection("TokenOption").Get<CustomTokenOption>();
+// AddAuthentication() == 
+builder.Services.AddCustomTokenAuth(tokenOptions);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
