@@ -15,3 +15,5 @@ C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\Bloggy.Repository.pdb
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\Bloggy.Repository.genruntimeconfig.cache
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\obj\Debug\net7.0\ref\Bloggy.Repository.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\bin\Debug\net7.0\Bloggy.SharedLibrary.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Repository\bin\Debug\net7.0\Bloggy.SharedLibrary.pdb

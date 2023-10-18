@@ -14,7 +14,8 @@ namespace Bloggy.Service.Mappings
         public MapProfile()
         {
             CreateMap<Blog, BlogDto>().ReverseMap();
-
+            CreateMap<User, UserDto>().ReverseMap();
+            CreateMap<UserDto, User>().ReverseMap();
         }
     }
 }

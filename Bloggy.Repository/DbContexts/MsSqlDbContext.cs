@@ -1,4 +1,6 @@
 ﻿using Bloggy.Core.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,9 +11,9 @@ using System.Threading.Tasks;
 
 namespace Bloggy.Repository.DbContexts
 {
-    public class MsSqlDbContext : DbContext
+    public class MsSqlDbContext : IdentityDbContext<User, IdentityRole, string>
     {
-        public DbSet<Author> Authors { get; set; }
+        public DbSet<User> Users { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Category> Categories { get; set; }
 

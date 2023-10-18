@@ -68,4 +68,8 @@
     <Folder Include="denizdemirkan.net-blog\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Bloggy.Core\Bloggy.Core.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -15,3 +15,5 @@ C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\ne
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\refint\Bloggy.Service.dll
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\Bloggy.Service.pdb
 C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\obj\Debug\net7.0\ref\Bloggy.Service.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\bin\Debug\net7.0\Bloggy.SharedLibrary.dll
+C:\Users\deniz\OneDrive\Masaüstü\Repository\Bloggy\Bloggy.Service\bin\Debug\net7.0\Bloggy.SharedLibrary.pdb
